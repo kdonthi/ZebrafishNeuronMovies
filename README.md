@@ -5,7 +5,7 @@ This folder consists of three programs that utilize zebrafish calcium imaging da
 The goal of these programs is not to just plot these neurons, but to create custom sliding windows to reduce the amount of data you see. Additionally, the ```deltaFoF``` value is a measure of the calcium concentration over some baseline value.<br/>
 
 
-The arguments for these files include: 
+The arguments for these files include: <br/>
   a) ```Windowsize``` - the amount of indices you want to average for each window of time; the deltaFoF values will be thresholded and then averaged to plot this period of time <br/>
   b) ```Spacing``` - the index distance between the starting indices of each of the windows (i.e. a spacing of 1 means that windows will start from indices 1,2,3,...<br/>
   c) ```Threshold``` - we say a neuron is firing if it has a deltaFoF > threshold and and not firing if deltaFoF <= threshold<br/>
